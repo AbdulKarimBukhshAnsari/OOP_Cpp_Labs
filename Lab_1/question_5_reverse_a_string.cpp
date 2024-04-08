@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     //Question 5 : Reverse the given string
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number :SE-23052\n";
     string str ;  // initializing the variable
     cout<<"Enter the string: ";
     cin>>str;
