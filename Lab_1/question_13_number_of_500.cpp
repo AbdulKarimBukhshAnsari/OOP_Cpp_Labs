@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     // Question 13 : Amount in Rupees Breakdown
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number : SE-23052\n";
     int amount ; 
     cout<<"Enter amount in rupees: ";
     cin>>amount;
