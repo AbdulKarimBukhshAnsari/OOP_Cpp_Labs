@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    // Question 13 : Amount in Rupees Breakdown
     int amount ; 
     cout<<"Enter amount in rupees: ";
     cin>>amount;
