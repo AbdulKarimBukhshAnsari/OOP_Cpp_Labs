@@ -8,8 +8,7 @@ void check_character(int ascii){
     else cout<<(char)ascii<<" is a special character.";
 }
 int main(){
-    //Question 1 : Find the character by using the ACII value
-    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number :SE-23052\n";
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number : SE-23052\n";
     char character;
     cout<<"Enter the character: ";
     cin>>character;
