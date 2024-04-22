@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main(){
-  
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number : SE-23052\n";
     string str;
     cout<<"Enter the string: ";
     getline(cin,str);
