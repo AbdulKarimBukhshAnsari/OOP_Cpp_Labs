@@ -17,9 +17,6 @@ int main(){
     else {
         cout<<"You guessed the correct number";
         break;
-    }
-    
-   }
-   
-
+    }    
+   }   
 }
