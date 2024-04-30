@@ -26,7 +26,7 @@ int main(){
     cout<<"---Detailed Data!!!----------"<<endl;
     cout<<"------------------------------"<<endl;
     // Displaying the Data
-    for(int j =0;j<3;j++){
+    for(int j =0;j<5;j++){
         cout<<"Employee "<<j+1<<endl;
         cout<<"Employee id: "<<employee[j].employee_id<<endl;
         cout<<"Name: "<<employee[j].name<<endl;
