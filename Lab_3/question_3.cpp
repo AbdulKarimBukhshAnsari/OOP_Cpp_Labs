@@ -6,7 +6,6 @@ struct Number{
     int a;
     int b;
 };
-
 void swapp(int &a,int &b){
     int temp = a;
     a = b;
@@ -23,3 +22,4 @@ int main(){
     swapp(num.a,num.b);
     cout<<"Number after swapping are "<<num.a<<" and "<<num.b;
 }
+

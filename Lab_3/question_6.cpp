@@ -2,7 +2,7 @@
 #include<algorithm>
 using namespace std;
 struct Book {
-    string title;
+    char title[50];
     string author;
     string genre;
     int year_of_publication;
@@ -14,13 +14,15 @@ int main(){
     // Data Entry
     for(int i =0;i<3;i++){
         cout<<"Enter the title of "<<i+1<<" book: ";
-        cin>>book[i].title;
+        cin.get(book[i].title,50);
+        cin.ignore();
         cout<<"Enter the name of "<<i+1<<" book author: ";
         cin>>book[i].author;
         cout<<"Enter the genre of "<<i+1<<" book: ";
         cin>>book[i].genre;
         cout<<"Enter the year of publication of "<<i+1<<" book: ";
         cin>>book[i].year_of_publication;
+        cin.ignore();
         year_of_pub[i] =book[i].year_of_publication; 
     }
      cout<<"----------------------------"<<endl;
