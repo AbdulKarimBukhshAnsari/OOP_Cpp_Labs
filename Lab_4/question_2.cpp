@@ -17,6 +17,7 @@ using namespace std;
 
 
 int main() {
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number :SE-23052\n\n";
     int arr[] = {1, 2, 3, 4, 5};
     int size = sizeof(arr) / sizeof(arr[0]);
     // Print original array

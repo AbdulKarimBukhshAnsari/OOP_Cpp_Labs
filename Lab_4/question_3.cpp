@@ -19,5 +19,5 @@ int main() {
 
     int *maxPtr = findMax(arr, size);
 
-    cout<<"Maximum element in the pointer is: "<<*maxPtr;
+    cout<<"Maximum element in the list is: "<<*maxPtr;
 }

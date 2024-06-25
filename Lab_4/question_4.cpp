@@ -23,6 +23,7 @@ using namespace std;
         return tail;
     }
 int main() {
+    cout<<"Name: Abdul Karim Bukhsh Ansari \nRoll Number :SE-23052\n\n";
     int arr[] = {1, 2, 2, 3, 4, 4, 5, 5};
     int size = sizeof(arr) / sizeof(arr[0]);
     cout << "Original array: ";
